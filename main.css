@@ -1,0 +1,63 @@
+:root{
+    --player1-color: red;
+    --player2-color: green;
+}
+
+body{
+    background-color:#555;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.title {
+    margin: 0;
+    padding-top: 10px;
+    color: #DDD;
+    text-align: center;
+}
+
+
+#mainContent {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color:#333;
+}
+
+#gameArea {
+    width: 310px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.playSquare {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border-color: purple;
+    border-width: thin;
+    border-style: solid;
+    display:inline-block;
+}
+
+.player1{
+    background-color: var(--player1-color);
+}
+
+.player2{
+    background-color: var(--player2-color);
+}
+
+#player-label {
+    margin: 0;
+    padding-top: 10px;
+    text-align:center;
+}
+.player-label-num1 {
+    color: var(--player1-color);
+}
+
+.player-label-num2 {
+    color: var(--player2-color);
+}
